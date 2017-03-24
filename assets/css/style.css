@@ -1,0 +1,453 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*Heading of Page*/
+
+.Heading {
+	border-width: 0px 0px 1px 0px;
+	border-bottom: #cccccc;
+	border-style: solid;
+	width: 100%;
+	overflow: auto;
+
+}
+
+#Name {
+	background-color: #4aaaa5;
+	color: white;
+	width: 15%;
+	height: 50px;
+	padding: 15px;
+	text-align: center;
+	margin: 0px;
+	position: absolute;
+	left: 15%;
+	top: 19px;
+	
+
+}
+
+
+.Links {
+	float: right;
+	padding: 40px;
+	position: relative;
+	right: 15%;
+	color: #F0F0F0 ;
+	
+
+
+}
+
+#Links1, #Links2, #Links3 {
+	position: relative;
+	text-align: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+	color: #777777;
+	margin: 0px 15px 0px 15px;
+
+}
+
+
+
+#section1 {
+
+	border: 2px #E4E4E4 solid;
+}
+
+#section2 {
+
+	border: 2px #F5F5F5 solid;
+}
+
+
+/*Main section of page*/
+
+.Wrapper {
+	clear: both;
+	width: 100%;
+	overflow: auto;
+	height: 800px;
+	background-image: url("../images/new_year_background.png")
+
+}
+
+
+.Content {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width: 2px;
+	border-style: solid;
+	width: 650px;
+	overflow: auto;
+	float: left;
+	padding: 20px;
+	position: relative;
+	top: 35px;
+	left: 15%;
+}
+
+h1 { 
+	font-size: 32px;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	color: #4aaaa5;
+ } 
+
+
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	color: #4aaaa5;
+
+}
+
+#ProfilePic {
+	float: left;
+	padding: 10px 10px 5px 10px;
+	
+}
+
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 1.5;
+}
+
+.socialmedia { 
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	width: 270px;
+	height: 190px;
+	float: left;
+	top: 35px;
+	left: 20%;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+
+}
+
+#linkedin {
+	position:relative;
+	margin: 5px 5px 5px 5px;
+	right: 75px;
+	top: 20px;
+
+}
+
+
+#github {
+	position:relative;
+	margin: 5px 5px 5px 5px;
+	top: -45px;
+	right: -15px;
+
+}
+
+
+#stackoverflow {
+	position:relative;
+	margin: 5px 5px 5px 5px;
+	right: -85px;
+	top: -110px;
+
+}
+
+
+
+
+/*Footer*/
+
+#push {
+	clear: both;
+	background-color: #4aaaa5;
+	height: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 90px;
+}
+
+
+#footer {
+	background-color: #666666;
+	color: #B9B9B9;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	padding: 40px;
+
+	
+
+}
+
+
+/*CSS for Contact.html*/
+
+.Contact {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width: 2px;
+	border-style: solid;
+	width: 650px;
+	overflow: auto;
+	float: left;
+	padding: 20px;
+	position: relative;
+	top: 35px;
+	left: 15%;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa4;
+
+}
+
+/*Portfolio*/
+
+.portfolioset1 {
+	height: 200px;
+	width: 250px;
+	margin: 20px;
+
+}
+
+#portfolio1 {
+	z-index: 1;
+	right: 20px;
+	height: 250px;
+	width: 300px;
+}
+
+#picture1 {
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	top: 255px;
+	padding-top: 10px;
+	z-index: 2;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	text-align: center;
+
+}
+
+.portfolioset2 {
+	clear: both;
+	height: 200px;
+	width: 250px;
+	margin: 20px;
+	float:right;
+	position: relative;
+	top: -240px;
+	
+}
+
+#portfolio2 {
+	z-index: 1;
+	float:right;
+	height: 250px;
+	width: 300px;
+
+	
+}
+
+
+#picture2 {
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	top: 120px;
+	padding-top: 10px;
+	z-index: 2;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	text-align: center;
+
+}
+
+
+.portfolioset3 {
+	clear: both;
+	height: 200px;
+	width: 250px;
+	margin: 20px;
+	float:left;
+	position: relative;
+	top: -240px;
+	
+}
+
+#portfolio3 {
+	z-index: 1;
+	float:left;
+	height: 250px;
+	width: 300px;
+
+	
+}
+
+
+#picture3 {
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	top: 120px;
+	padding-top: 10px;
+	z-index: 2;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	text-align: center;
+
+}
+
+
+.portfolioset4 {
+	clear: both;
+	height: 200px;
+	width: 250px;
+	margin: 20px;
+	float:right;
+	position: relative;
+	top: -240px;
+	
+}
+
+#portfolio4 {
+	z-index: 1;
+	float:right;
+	height: 250px;
+	width: 300px;
+
+	
+}
+
+
+#picture4 {
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	top: 120px;
+	padding-top: 10px;
+	z-index: 2;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	text-align: center;
+
+}
+
+.portfolioset5 {
+	clear: both;
+	height: 200px;
+	width: 250px;
+	margin: 20px;
+	float:left;
+	position: relative;
+	top: -240px;
+	
+}
+
+#portfolio5 {
+	z-index: 1;
+	float:left;
+	height: 250px;
+	width: 300px;
+
+	
+}
+
+
+#picture5 {
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	top: 120px;
+	padding-top: 10px;
+	z-index: 2;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	text-align: center;
+
+}
+
+
+.portfolioset6 {
+	clear: both;
+	height: 200px;
+	width: 250px;
+	margin: 20px;
+	float:right;
+	position: relative;
+	top: -240px;
+	
+}
+
+#portfolio6 {
+	z-index: 1;
+	float:right;
+	height: 230px;
+	width: 280px;
+
+	
+}
+
+
+#picture6 {
+	position: absolute;
+	width: 250px;
+	height: 40px;
+	background-color: #4aaaa5;
+	top: 120px;
+	padding-top: 10px;
+	z-index: 2;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	text-align: center;
+
+}
